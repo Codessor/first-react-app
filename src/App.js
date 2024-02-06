@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.svg"; // императивный стиль начало
 import "./App.css";
 import Year from './components/getYear';
 
@@ -17,11 +17,11 @@ function App() {
 					rel="noopener noreferrer"
 				>
 					Learn React
-				</a>
-				<Year />
-			</header>
+				</a> {/* императивный стиль конец */}
+				<Year /> {/* строка декларативного стиля */}
+			</header> {/* императивный стиль начало */}
 		</div>
 	);
 }
 
-export default App;
+export default App;  // императивный стиль конец
